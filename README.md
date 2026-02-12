@@ -42,16 +42,18 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![Alt text](../img/image1.png)
 
+![Output](img/image1.png)
 
 cat < file2
 ## OUTPUT
-![Alt text](../img/image1.png)
+![Output](img/image2.png)
+
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Output](img/image3.png)
+
 comm file1 file2
  ## OUTPUT
 
@@ -1053,7 +1055,6 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
-awk -f nc.awk data.dat
 ## OUTPUT 
  
 cat > palindrome.sh
