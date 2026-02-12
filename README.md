@@ -959,13 +959,12 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-
- 
 $ chmod 755 forcontinue.sh
-
 $ ./forcontinue.sh 
 ## OUTPUT
  ![Output](img/image78.png)
+
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -974,12 +973,10 @@ echo -n "Enter your name: "
 read name
 echo "Hello $name, welcome to my program. "
  ```
- 
 $ chmod 755 exread.sh 
- 
 $ ./exread.sh 
 ## OUTPUT
-
+![Output](img/image77.png)
 
  cat exread1.sh
 ```bash
@@ -989,13 +986,11 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
- 
+## OUTPUT
+![Output](img/image78.png)
+
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1011,14 +1006,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
-![Output](img/image80.png)
+./funcex.sh 
+./funcex.sh 1 2
 
- ./funcex.sh 
+## OUTPUT
+![Output](img/image79.png)
 
  
- ./funcex.sh 1 2
-
  
 cat argshift.sh
 ```bash
@@ -1047,10 +1041,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
- ![Output](img/image82.png)
-cat argshift.sh
+## OUTPUT
+
+
+cat argshift2.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1060,11 +1055,10 @@ while (( "$#" )); do
 done
 set +x
 ```
+ ./argshift2.sh 1 2 3
 ## OUTPUT
 ![Output](img/image83.png)
 
- ./argshift.sh 1 2 3
- 
  
 cat > nc.awk
 ```bash
@@ -1093,6 +1087,8 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+awk -f nc.awk data.dat
+
 ## OUTPUT 
  ![Output](img/image84.png)
 
