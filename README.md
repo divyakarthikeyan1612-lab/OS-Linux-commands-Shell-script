@@ -440,7 +440,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Output](img/image51.png)
 
 cat < scriptest.sh 
 ```bash
@@ -478,25 +478,26 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Output](img/image52.png)
  
 ls file1
 ## OUTPUT
-
+![Output](img/image53.png)
 echo $?
 ## OUTPUT 
+![Output](img/image54.png)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![Output](img/image55.png)
 abcd
  
 echo $?
  ## OUTPUT
 
-
+![Output](img/image56.png)
  
 # mis-using string comparisons
 cat < strcomp.sh 
@@ -513,7 +514,7 @@ echo "$val1 is less than $val2"
 fi
 ^d
 ```
-
+![Output](img/image57.png)
 cat strcomp.sh 
 ```bash
 \#!/bin/bash
@@ -534,7 +535,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![Output](img/image58.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -548,6 +549,7 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
 ^d
 ```
+![Output](img/image59.png)
 
 cat psswdperm.sh 
 ```bash
@@ -561,7 +563,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+![Output](img/image60.png)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -584,6 +586,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
+![Output](img/image61.png)
 cat ifnested.sh 
 ```
 \#!/bin/bash
@@ -1011,7 +1014,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
-![Output](img/image82.png)
+![Output](img/image80.png)
 
  ./funcex.sh 
 
@@ -1031,7 +1034,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![Output](img/image81.png)
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1048,7 +1051,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![Output](img/image82.png)
 cat argshift.sh
 ```bash
 #!/bin/bash 
