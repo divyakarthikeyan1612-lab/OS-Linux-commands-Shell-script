@@ -201,43 +201,43 @@ egrep '(^hello)' newfile
 egrep '(world$)' newfile 
 ## OUTPUT
 
-![Output](img/image20.png)
+![Output](img/image18.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![Output](img/image21.png)
+![Output](img/image19.png)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-![Output](img/image22.png)
+![Output](img/image20.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-![Output](img/image23.png)
+![Output](img/image21.png)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-![Output](img/image24.png)
+![Output](img/image22.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![Output](img/image25.png)
+![Output](img/image23.png)
 
 
 egrep l{2} newfile
 ## OUTPUT
-![Output](img/image26.png)
+![Output](img/image24.png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![Output](img/image27.png)
+![Output](img/image25.png)
 
 
 cat > file23
@@ -257,6 +257,7 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+![Output](img/image27.png)
 
 
 sed -n -e '$p' file23
