@@ -559,8 +559,12 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
 ./psswdperm.sh
+
+
 ## OUTPUT
-![Output](img/image58.png)
+![Output](img/image55.png)
+
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -605,7 +609,9 @@ echo “Sorry, the object does not exist”
 fi
 ```
 
-./ifnested.sh 
+./ifnested.sh
+
+
 ## OUTPUT
 ![Output](img/image57.png)
 
@@ -628,6 +634,8 @@ echo “The values are different”
 fi
 ^d
 ```
+
+## OUTPUT
 ![Output](img/image58.png)
 
 cat iftest.sh 
@@ -676,7 +684,11 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
+
+## OUTPUT
 ![Output](img/image60.png)
+
+
 cat ifnested.sh 
 ```bash
 \#!/bin/bash
@@ -788,10 +800,11 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
- 
 $ ./whiletest.sh
  
- ![Output](img/image64.png)
+ ## OUTPUT
+ ![Output](img/image65.png)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -803,7 +816,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+$./untiltest.sh
  
+ ## OUTPUT
  ![Output](img/image65.png)
  
 cat forin1.sh 
@@ -817,6 +832,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
+$./forin1.sh
+
+ ## OUTPUT 
  ![Output](img/image66.png)
  
 cat forin2.sh 
@@ -830,7 +848,12 @@ done
  ```
  
 $ chmod 755 forin2.sh
+$./forin2.sh
+ 
+ ## OUTPUT
  ![Output](img/image67.png)
+
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -841,20 +864,28 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
- 
 $ ./forin2.sh 
+
+## OUTPUT
  ![Output](img/image68.png)
-cat forin3.sh 
+
+
+cat > forin3.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 \# another example of how not to use the for command
 for test in I don\'t know if "this'll" work
 do
 echo "word:$test"
 done
 ```
+$ chmod 777 forin3.sh
 $ ./forin3.sh 
+
+## OUTPUT
  ![Output](img/image69.png)
+
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -865,9 +896,12 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+$./forin1.sh
 
 ## OUTPUT
-![Output](img/image70.png)
+![Output](img/image69.png)
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -879,6 +913,11 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
+$./forinfile.sh
+
+## OUTPUT 
+![Output](img/image70.png)
+
 $ cat cities
 Hyderabad
 Alampur
@@ -900,10 +939,13 @@ do
 echo "The value of i is $i"
 done
 ````
-$ chmod 755 forctype.sh
-$ ./forctype.sh 
+$chmod 755 forctype.sh
+$./forctype.sh 
+
 ## OUTPUT
 ![Output](img/image72.png)
+
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -917,6 +959,8 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 ![Output](img/image73.png)
+
+
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -950,11 +994,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
+
+$ chmod 755 forbreak.sh
+$ ./forbreak.sh 
+
 ## OUTPUT
 ![Output](img/image75.png)
-$ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
+
  
 cat forcontinue.sh 
 ```bash
