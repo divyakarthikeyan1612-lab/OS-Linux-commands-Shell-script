@@ -56,10 +56,12 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
+![Output](img/image4.png)
 
  
 diff file1 file2
 ## OUTPUT
+![Output](img/image5.png)
 
 
 #Filters
@@ -84,16 +86,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![Output](img/image6.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![Output](img/image7.png)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![Output](img/image8.png)
 
 
 cat < newfile 
@@ -108,39 +113,46 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![Output](img/image9.png)
 
 
 
 grep hello newfile 
 ## OUTPUT
 
+![Output](img/image10.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Output](img/image11.png)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![Output](img/image12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+![Output](img/image13.png)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+![Output](img/image14.png)
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![Output](img/image15.png)
 
 
 cat < newfile 
@@ -164,6 +176,7 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![Output](img/image16.png)
 
 
 
