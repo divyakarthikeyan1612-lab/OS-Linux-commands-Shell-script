@@ -562,58 +562,7 @@ fi
 
 
 ## OUTPUT
-![Output](img/image55.png)
-
-
-# check if with file location
-cat>ifnested.sh 
-```bash
-\#!/bin/bash
-if [ -e $HOME ]
-then
-echo “$HOME The object exists, is it a file?”
-if [ -f $HOME ]
-then
-echo “Yes,$HOME it is a file!”
-else
-echo “No,$HOME it is not a file!”
-if [ -f $HOME/.bash_history ]
-then
-echo “But $HOME/.bash_history is a file!”
-fi
-fi
-else
-echo “Sorry, the object does not exist”
-fi
-^d
-```
-
-cat ifnested.sh 
-```
-\#!/bin/bash
-if [ -e $HOME ]
-then
-echo “$HOME The object exists, is it a file?”
-if [ -f $HOME ]
-then
-echo “Yes,$HOME it is a file!”
-else
-echo “No,$HOME it is not a file!”
-if [ -f $HOME/.bash_history ]
-then
-echo “But $HOME/.bash_history is a file!”
-fi
-fi
-else
-echo “Sorry, the object does not exist”
-fi
-```
-
-./ifnested.sh
-
-
-## OUTPUT
-![Output](img/image57.png)
+![Output](img/image58.png)
 
 
 # using numeric test comparisons
@@ -636,33 +585,10 @@ fi
 ```
 
 ## OUTPUT
-![Output](img/image58.png)
-
-cat iftest.sh 
-```bash
-\#!/bin/bash
-val1=10
-val2=11
-if [ $val1 -gt 5 ]
-then
-echo “The test value $val1 is greater than 5”
-fi
-if [ $val1 -eq $val2 ]
-then
-echo “The values are equal”
-else
-echo “The values are different”
-fi
-```
-
-$ chmod 755 iftest.sh 
-$ ./iftest.sh 
-
-## OUTPUT
-![Output](img/image59.png)
+![Output](img/image60.png)
 
 
-# check if a file
+# check if with a file location
 cat > ifnested.sh 
 ```bash
 \#!/bin/bash
