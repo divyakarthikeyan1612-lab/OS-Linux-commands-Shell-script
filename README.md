@@ -533,7 +533,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![Output](img/image58.png)
+![Output](img/image57.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -547,7 +547,7 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
 ^d
 ```
-![Output](img/image59.png)
+![Output](img/image58.png)
 
 cat psswdperm.sh 
 ```bash
@@ -561,7 +561,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![Output](img/image60.png)
+![Output](img/image59.png)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -584,7 +584,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
-![Output](img/image61.png)
+![Output](img/image60.png)
 cat ifnested.sh 
 ```
 \#!/bin/bash
