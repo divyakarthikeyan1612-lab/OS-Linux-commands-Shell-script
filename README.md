@@ -1017,6 +1017,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+![Output](img/image82.png)
+
  ./funcex.sh 
 
  
@@ -1064,6 +1066,8 @@ done
 set +x
 ```
 ## OUTPUT
+![Output](img/image83.png)
+
  ./argshift.sh 1 2 3
  
  
@@ -1095,7 +1099,8 @@ bcdfghj
 ubcdfghj
 ```
 ## OUTPUT 
- 
+ ![Output](img/image84.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1123,6 +1128,6 @@ fi
 ```
 ## OUTPUT 
 
-
+![Output](img/image85.png)
 # RESULT:
 The Commands are executed successfully.
