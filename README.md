@@ -286,58 +286,58 @@ sed  '/tom/s/5000/6000/' file23
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-![Output](img/image32.png)
+![Output](img/image30.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-![Output](img/image33.png)
+![Output](img/image31.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-![Output](img/image34.png)
+![Output](img/image32.png)
 
 
 seq 10 
 ## OUTPUT
-![Output](img/image35.png)
+![Output](img/image33.png)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-![Output](img/image36.png)
+![Output](img/image34.png)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-![Output](img/image37.png)
+![Output](img/image35.png)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-![Output](img/image38.png)
+![Output](img/image36.png)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-![Output](img/image39.png)
+![Output](img/image37.png)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-![Output](img/image40.png)
+![Output](img/image38.png)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![Output](img/image41.png)
+![Output](img/image39.png)
 
 
 
