@@ -187,14 +187,14 @@ egrep -w '(H|h)ello' newfile
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
+## OUTPUT
 
-
-
+![Output](img/image87.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![Output](img/image88.png)
 
 
 
