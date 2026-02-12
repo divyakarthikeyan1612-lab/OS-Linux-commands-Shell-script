@@ -292,7 +292,7 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-
+![Output](img/image86.png)
 
 
 seq 10 
@@ -349,7 +349,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Output](img/image40.png)
 
 cat > file22
 ```
@@ -362,14 +362,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Output](img/image41.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
+![Output](img/image42.png)
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -386,17 +386,17 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-
+![Output](img/image43.png)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-
+![Output](img/image44.png)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![Output](img/image45.png)
 
 mkdir backupdir
  
@@ -406,19 +406,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![Output](img/image46.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
+![Output](img/image47.png)
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![Output](img/image48.png)
 gunzip backup.tar.gz
 ## OUTPUT
-
+![Output](img/image49.png)
  
 # Shell Script
 ```
@@ -428,7 +428,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![Output](img/image50.png)
  
 cat << stop > herecheck.txt
 ```
