@@ -150,9 +150,9 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
-ca
+
 cat > newfile
-```ca
+```
 Hello world
 hello world
 Linux is world number 1
@@ -171,6 +171,7 @@ egrep -w '(H|h)ello' newfile
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
+## OUTPUT
 
 
 
@@ -193,6 +194,7 @@ egrep '((W|w)orld$)' newfile
 ## OUTPUT
 
 
+
 egrep '[1-9]' newfile 
 ## OUTPUT
 
@@ -208,6 +210,7 @@ egrep 'Linux.*World' newfile
 
 egrep l{2} newfile
 ## OUTPUT
+
 
 
 egrep 's{1,2}' newfile
@@ -237,7 +240,8 @@ sed -n -e '$p' file23
 ## OUTPUT
 
 
-sed -n -e '$p' file23
+
+sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
 
@@ -259,6 +263,7 @@ sed -n -e '1,5p' file23
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+
 
 
 
@@ -464,9 +469,9 @@ echo $?
 
  
 # mis-using string comparisons
+
 cat < strcomp.sh 
 ```bash
-
 \#!/bin/bash
 val1=baseball
 val2=hockey
@@ -687,7 +692,6 @@ echo "$USER, Do not forget to logout when you're done"
 else
 echo "Sorry, you are not allowed here"
 fi
-
 ```
 
 $ chmod 755 elifcheck.sh
@@ -947,7 +951,7 @@ $ ./exread.sh
 
  cat exread1.sh
 ```bash
- #!/bin/bash
+#!/bin/bash
 # testing the read command
 read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
