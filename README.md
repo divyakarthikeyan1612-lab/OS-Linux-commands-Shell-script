@@ -583,7 +583,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
-![Output](img/image59.png)
+
 cat ifnested.sh 
 ```
 \#!/bin/bash
