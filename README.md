@@ -547,7 +547,6 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
 ^d
 ```
-![Output](img/image58.png)
 
 cat psswdperm.sh 
 ```bash
@@ -561,7 +560,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![Output](img/image59.png)
+![Output](img/image58.png)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -584,7 +583,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
-![Output](img/image60.png)
+![Output](img/image59.png)
 cat ifnested.sh 
 ```
 \#!/bin/bash
@@ -608,7 +607,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![Output](img/image60.png)
 
 
 # using numeric test comparisons
@@ -629,7 +628,7 @@ echo “The values are different”
 fi
 ^d
 ```
-
+![Output](img/image61.png)
 
 cat iftest.sh 
 ```bash
@@ -651,8 +650,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
-
+## OUTPUT
+![Output](img/image62.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -675,7 +674,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
-
+![Output](img/image63.png)
 cat ifnested.sh 
 ```bash
 \#!/bin/bash
@@ -700,8 +699,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
-
+## OUTPUT
+![Output](img/image64.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -731,7 +730,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-
+![Output](img/image65.png)
 # testing compound comparisons
 cat> ifcompound.sh 
 ```bash
@@ -746,7 +745,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![Output](img/image66.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -781,7 +780,7 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ ![Output](img/image67.png)
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -794,7 +793,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ![Output](img/image68.png)
  
 cat forin1.sh 
 ```bash
@@ -807,7 +806,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ![Output](img/image69.png)
  
 cat forin2.sh 
 ```bash
@@ -820,7 +819,7 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ ![Output](img/image70.png)
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -833,7 +832,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![Output](img/image71.png)
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -844,7 +843,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ![Output](img/image72.png)
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -857,6 +856,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![Output](img/image73.png)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -878,7 +878,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![Output](img/image74.png)
 
 cat forctype.sh 
 ```bash
@@ -905,7 +905,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![Output](img/image75.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -923,7 +923,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![Output](img/image76.png)
  
 cat forbreak.sh 
 ```bash
@@ -940,7 +940,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
+![Output](img/image77.png)
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
@@ -962,10 +962,10 @@ echo "The for loop is completed“
 
  
 $ chmod 755 forcontinue.sh
- 
+
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![Output](img/image78.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
