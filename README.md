@@ -336,7 +336,8 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+## OUTPUT
+![Output](img/image89.png)
 
 #Sorting File content
 cat > file21
@@ -483,21 +484,18 @@ chmod 777 scriptest.sh
 ls file1
 ## OUTPUT
 ![Output](img/image53.png)
+
 echo $?
 ## OUTPUT 
-![Output](img/image54.png)
 ./one
 bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- ![Output](img/image55.png)
+![Output](img/image54.png)
+
 abcd
- 
 echo $?
  ## OUTPUT
 
-![Output](img/image56.png)
+![Output](img/image55.png)
  
 # mis-using string comparisons
 cat < strcomp.sh 
@@ -514,7 +512,7 @@ echo "$val1 is less than $val2"
 fi
 ^d
 ```
-![Output](img/image57.png)
+![Output](img/image56.png)
 cat strcomp.sh 
 ```bash
 \#!/bin/bash
