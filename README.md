@@ -819,7 +819,7 @@ $ chmod 755 untiltest.sh
 $./untiltest.sh
  
  ## OUTPUT
- ![Output](img/image65.png)
+ ![Output](img/image66.png)
  
 cat forin1.sh 
 ```bash
@@ -835,24 +835,8 @@ $ chmod 755 forin1.sh
 $./forin1.sh
 
  ## OUTPUT 
- ![Output](img/image66.png)
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
- ```
- 
-$ chmod 755 forin2.sh
-$./forin2.sh
- 
- ## OUTPUT
  ![Output](img/image67.png)
-
+ 
 
 cat forin2.sh 
 ```bash
@@ -884,23 +868,6 @@ $ ./forin3.sh
 
 ## OUTPUT
  ![Output](img/image69.png)
-
-
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
-$./forin1.sh
-
-## OUTPUT
-![Output](img/image69.png)
-
 
 cat forinfile.sh 
 ```bash
