@@ -265,12 +265,6 @@ sed -n -e '$p' file23
 ![Output](img/image27.png)
 
 
-sed -n -e '$p' file23
-## OUTPUT
-
-![Output](img/image28.png)
-
-
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 ![Output](img/image29.png)
